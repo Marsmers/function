@@ -217,9 +217,9 @@ function personForm(parent, person) {
     const surnameInput = document.createElement("input");
     surnameInput.value = person.getSurname();
     parent.appendChild(surnameInput);
-    const patronymicInput = document.createElement("input");
-    patronymicInput.value = person.getPatronymic();
-    parent.appendChild(patronymicInput);
+    const setFatherName = document.createElement("input");
+    setFatherName.value = person.getPatronymic();
+    parent.appendChild(setFatherName);
     const ageInput = document.createElement("input");
     ageInput.value = person.getAge();
     parent.appendChild(ageInput);
